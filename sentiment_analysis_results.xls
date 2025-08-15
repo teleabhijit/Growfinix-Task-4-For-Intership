@@ -1,0 +1,6 @@
+review,clean_text,vader_score,vader_label,hf_label,hf_confidence
+"I loved this movie, it was fantastic and thrilling!",loved movie fantastic thrilling,0.891,Positive,POSITIVE,0.9998881816864014
+Terrible movie. Waste of time.,terrible movie waste time,-0.7096,Negative,NEGATIVE,0.9998120665550232
+The plot was okay but the acting was superb.,plot okay acting superb,0.7184,Positive,POSITIVE,0.9998125433921814
+Not my cup of tea. Boring and slow.,cup tea boring slow,-0.3182,Negative,NEGATIVE,0.9996929168701172
+Absolutely amazing performance by the cast!,absolutely amazing performance cast,0.624,Positive,POSITIVE,0.9998798370361328
