@@ -2,8 +2,7 @@
 "Portfolio of Data Science internship work at Growfinix, showcasing data preprocessing, EDA, visualization, and insights generation, organized by tasks with code, datasets, and visual outputs."
 # 🎬 Movie Review Sentiment Analysis (Task 4)
 
-This project performs sentiment analysis on movie reviews using **VADER** (Valence Aware Dictionary and sEntiment Reasoner) from NLTK.  
-It classifies reviews as **Positive**, **Negative**, or **Neutral** and visualizes the sentiment distribution.
+This project performs sentiment analysis on movie reviews using **VADER** (Valence Aware Dictionary and sEntiment Reasoner) from NLTK and includes an **optional UI with Streamlit** for real-time analysis.
 
 ---
 
@@ -21,6 +20,7 @@ It classifies reviews as **Positive**, **Negative**, or **Neutral** and visualiz
 7. Create **Bar Chart** & **Pie Chart**.
 8. Show top 3 positive and negative reviews.
 9. Save final results to `sentiment_analysis_results.xls`.
+10. **Bonus:** Added a Streamlit app (`streamlit.py`) for real-time sentiment analysis using both **VADER** and **HuggingFace Transformers**.
 
 ---
 
@@ -40,7 +40,7 @@ It classifies reviews as **Positive**, **Negative**, or **Neutral** and visualiz
 
 ## 🛠 Tech Stack / Tools
 - **Language:** Python
-- **Libraries:** Pandas, Matplotlib, NLTK (VADER), TextBlob
+- **Libraries:** Pandas, Matplotlib, NLTK (VADER), TextBlob, Transformers (HuggingFace), Streamlit
 - **IDE:** Jupyter Notebook
 
 ---
@@ -53,13 +53,17 @@ It classifies reviews as **Positive**, **Negative**, or **Neutral** and visualiz
 | `sentiment_pie.png` | Pie chart of sentiment distribution |
 | `sentiment_analysis_results.xls` | Final classified reviews with sentiment |
 | `Screenshot 2025-08-14 202256.png` | Task description screenshot |
+| `streamlit.py` | Streamlit app for live sentiment checking |
 | `requirements.txt` | Required Python libraries |
 | `README.md` | Project documentation |
 
 ---
 
 ## 🚀 How to Run Locally
+
+### 1️⃣ Run the Notebook
 1. Clone this repository:
    ```bash
    git clone https://github.com/YOUR_USERNAME/movie-review-sentiment-analysis.git
    cd movie-review-sentiment-analysis
+
